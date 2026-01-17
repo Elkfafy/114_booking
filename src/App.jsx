@@ -7,6 +7,9 @@ import Register from "./pages/register/Register";
 
 export default function App() {
     return (
+
+        <>
+            <h1>hellow</h1>
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/hotels" element={<Hotels />} />
@@ -14,5 +17,6 @@ export default function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
         </Routes>
+        </>
     )
 }
