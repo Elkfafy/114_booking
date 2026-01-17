@@ -1,0 +1,76 @@
+.headerSearch {
+    display: flex;
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    color: #d3d3d3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1024px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+}
+
+.headerSearchButton {
+    background-color: #0071c2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.headerSearchDate {
+    position: absolute;
+    top: 50px;
+}
+
+.headerSearchOptions {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    color: grey;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, .4);
+    top: 50px;
+}
+.headerSearchOptionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.headerSearchText {
+    cursor: pointer;
+    color: #d3d3d3;
+}
+.headerSearchOptionCounter {
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-size: 12px;
+    align-items: center;
+}
+
+.headerSearchOptionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    background-color: white;
+    cursor: pointer;
+}

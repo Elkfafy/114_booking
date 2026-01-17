@@ -1,0 +1,11 @@
+.hsOptionsItem {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.hsOptionsItemInput {
+    width: 50px;
+}

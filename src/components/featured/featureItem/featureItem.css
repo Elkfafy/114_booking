@@ -1,0 +1,19 @@
+.featureItem {
+    height: 250px;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+}
+.featureItemImg {
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+}
+
+.featureItemTitles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

@@ -1,0 +1,22 @@
+.propertyListItem {
+    flex: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pListItemImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pListItemTitles > h1 {
+    font-size: 18px;
+    color: #444;
+}
+
+.pListItemTitles > h2 {
+    font-size: 14px;
+    font-weight: 300;
+}

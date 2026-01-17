@@ -1,0 +1,56 @@
+.hotelsSearch {
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    height: 100%;
+    position: sticky;
+    top: 10px;
+}
+
+.hsTitle {
+    color: #555;
+    font-size: 20px;
+}
+
+.hsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hsItem > label {
+    font-size: 12px;
+}
+
+.hsItem > input {
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.hsItem > span {
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hotelsSearch > button {
+    background-color: #0071c2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.hsOptions {
+    padding: 10px;
+}

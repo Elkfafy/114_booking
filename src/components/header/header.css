@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #003580;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 0 0;
+}
+
+.headerHome {
+    margin: 20px 0px 100px 0px;
+}
